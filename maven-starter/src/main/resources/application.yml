@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    include: datasource,web       #包含的文件名（application-name.yml)取name
+  application:
+    name: Multi-Env

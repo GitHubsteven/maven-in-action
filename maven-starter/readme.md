@@ -1,6 +1,6 @@
 ##### maven根据环境打包配置文件+多配置文件
 
-[git项目地址 ]()
+[git项目地址 ](https://github.com/GitHubsteven/maven-in-action/tree/master/maven-starter)
 
 ###### 目的一：maven根据环境打包配置文件
 阐述：在开发过程中，不同环境下的配置是不同的，如DataSource，cache,mq等等，所以我们需要根据不同的环境读取不同的配置打包发布。
@@ -191,4 +191,4 @@ target下classes代码结构如下：
 ```
 com表示自定义java类生成的class文件，查看datasource和web配置文件，和resources配置文件一样。
 
-**注意：执行maven命令请在profile所在的pom.xml对应的项目下执行**
+**注意：执行maven命令请在profile所在的pom.xml对应的项目下执行，本项目在父项目上执行**
